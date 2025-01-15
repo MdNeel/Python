@@ -13,7 +13,9 @@ list.append(5)
 
 for i in list1:
     count=count+1
-
+print(list1)
+list1.reverse()
+print("List1 after reversing the list1:", list1)
 print("Items in the list1 are :",list1)   
 print("Number of the items in the list1 are :", count)
 print("Items in the list are :",list)
